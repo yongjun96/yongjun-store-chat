@@ -1,0 +1,15 @@
+spring:
+  data:
+    mongodb:
+      host: 127.0.0.1
+      port: 27017
+      database: chatdb
+
+
+server:
+  port: 8088
+
+
+custom:
+  url:
+    frontend-url: http://localhost:5173
