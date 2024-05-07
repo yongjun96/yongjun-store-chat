@@ -4,6 +4,8 @@ spring:
       host: 127.0.0.1
       port: 27017
       database: chatdb
+  main:
+    allow-bean-definition-overriding: true
 
 
 server:
@@ -13,3 +15,5 @@ server:
 custom:
   url:
     frontend-url: http://localhost:5173
+  jwt:
+    secretKey: your-secret-key-value
